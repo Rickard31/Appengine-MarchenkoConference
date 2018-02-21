@@ -1,7 +1,6 @@
 'use strict';
-//https://accounts.google.com/signin/oauth/oauthchooseaccount?client_id=554975368930-qleikak2bcvugre9n9aism2ikcacrtk0.apps.googleusercontent.com&as=kRfFredmQ1o8WAZR7jI5hg&destination=https%3A%2F%2Fdefinitelylastmavenproject.appspot.com&approval_state=!ChRGTUNrUzVReEJGMXktbFFxbkdVbBIfVXd2RzV4ZXZVT0FVb1Bud0gtVkU1UUZHMnk5R0d4WQ%E2%88%99ACThZt4AAAAAWo20kd80DcdaKybhPDrsrwQ5vDXOpKMt&xsrfsig=AHgIfE_diMldZy-fgm2FoNiiFWqzPm7_dQ&flowName=GeneralOAuthFlow
-//https://accounts.google.com/o/oauth2/auth?response_type=permission%20id_token%20code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email%20profile&openid.realm=&include_granted_scopes=true&redirect_uri=storagerelay%3A%2F%2Fhttps%2Fmarchenkosconference.appspot.com%3Fid%3Dauth411072&client_id=554975368930-qleikak2bcvugre9n9aism2ikcacrtk0.apps.googleusercontent.com&ss_domain=https%3A%2F%2Fmarchenkosconference.appspot.com&gsiwebsdk=shim&access_type=offline
-	/**
+
+/**
  * @ngdoc object
  * @name conferenceApp
  * @requires $routeProvider
