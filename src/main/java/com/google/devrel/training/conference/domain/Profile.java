@@ -1,20 +1,21 @@
 package com.google.devrel.training.conference.domain;
 
+import com.google.devrel.training.conference.form.ProfileForm;
 import com.google.devrel.training.conference.form.ProfileForm.TeeShirtSize;
 import com.googlecode.objectify.annotation.Entity;
 import com.googlecode.objectify.annotation.Id;
 
 
-// TODO indicate that this class is an Entity
+@Entity
 public class Profile {
 	String displayName;
 	String mainEmail;
 	TeeShirtSize teeShirtSize;
 
-	// TODO indicate that the userId is to be used in the Entity's key
+	@Id
 	String userId;
-    
-    /**
+
+	/**
      * Public constructor for Profile.
      * @param userId The user id, obtained from the email
      * @param displayName Any string user wants us to display him/her on this system.
@@ -45,9 +46,10 @@ public class Profile {
 		return userId;
 	}
 
-	/**
-     * Just making the default constructor private.
-     */
-    private Profile() {}
-
+	public void update(String newDisplayName, ProfileForm.TeeShirtSize newTeeShirtSize) {
+    	this.displayName = newDisplayName;
+    	this.teeShirtSize = newTeeShirtSize;
+    }
+	
+	public Profile() {}
 }

@@ -1,6 +1,7 @@
 App Engine application for the Udacity training course.
 
 Can be accesed at https://marchenkosconference.appspot.com/#/
+Current Stage - Finished Practice 5
 
 ## Products
 - [App Engine][1]
